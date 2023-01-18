@@ -61,7 +61,7 @@ grupoKmeans<-kmeansResults$cluster
 datosRepresentacion<-data.frame(estacion, numEst, grupoKmeans)
 
 ggplot(datosRepresentacion)+
-  geom_point(mapping=aes(x=grupoKmeans, y=estacion), color=grupoKmeans, size=1)
+  geom_point(mapping=aes(x=grupoKmeans, y=estacion), color=grupoKmeans, size=5)
 #grupo 1 --> moratalaz
 #grupo 2 --> juancarlos y hortaleza, madrid este
 #grupo 3 --> estacion en plena m40
@@ -146,7 +146,7 @@ grupoKmeans<-kmeansResults$cluster
 datosRepresentacion<-data.frame(estacion, numEst,grupoKmeans)
 
 ggplot(datosRepresentacion)+
-  geom_point(mapping=aes(x=grupoKmeans, y=estacion), color=grupoKmeans, size=1)
+  geom_point(mapping=aes(x=grupoKmeans, y=estacion), color=grupoKmeans, size=5)
 #Grupo 1 --> parques de gran extension
 #Grupo 2 --> situados en parques cercanos o bien m30 o bien m40
 #Grupo 3 --> son principalmente estaciones situadas en zonas muy urbanas centro-sur, con poco efecto de zonas verdes a su alrededor, cercanas a industrias (madrid sur)
@@ -239,7 +239,7 @@ grupoKmeans<-kmeansResults$cluster
 datosRepresentacion<-data.frame(estacion, numEst, grupoKmeans)
 
 ggplot(datosRepresentacion)+
-  geom_point(mapping=aes(x=grupoKmeans, y=estacion), color=grupoKmeans, size=1)
+  geom_point(mapping=aes(x=grupoKmeans, y=estacion), color=grupoKmeans, size=5)
 #Grupo 1 --> proximos a zonas verdes, pero pegados a circunvalaciones, madird oeste-norte
 #Grupo 2 --> parques de menor estension, madrid este-sur, cuatro caminos me chirria
 #Grupo 3 --> zonas exteriores a las circunvalaciones, pero en zonas urbanas
@@ -325,7 +325,7 @@ grupoKmeans<-kmeansResults$cluster
 datosRepresentacion<-data.frame(estacion, numEst, grupoKmeans)
 
 ggplot(datosRepresentacion)+
-  geom_point(mapping=aes(x=grupoKmeans, y=estacion), color=grupoKmeans, size=1)
+  geom_point(mapping=aes(x=grupoKmeans, y=estacion), color=grupoKmeans, size=5)
 
 #Hierarchical Clustering 
 dfMeansNames <- dfMeans[,-1]
@@ -401,7 +401,7 @@ grupoKmeans<-kmeansResults$cluster
 datosRepresentacion<-data.frame(estacion, numEst, grupoKmeans)
 
 ggplot(datosRepresentacion)+
-  geom_point(mapping=aes(x=grupoKmeans, y=estacion), color=grupoKmeans, size=1)
+  geom_point(mapping=aes(x=grupoKmeans, y=estacion), color=grupoKmeans, size=5)
 
 #Hierarchical Clustering 
 dfMeansNames <- dfMeans[,-1]
