@@ -10,4 +10,3 @@ Es por esto por lo que este trabajo trata de estudiar las relaciones entre los d
 
 
 
-Licencia Creative Commons: CC BY-NC-ND
