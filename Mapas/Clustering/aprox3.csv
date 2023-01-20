@@ -1,13 +1,13 @@
 "estacion";"numEst";"grupoKmeans";"grupoJerarquico"
 "J.M.D. Moratalaz";102;4;1
 "J.M.D. Villaverde";103;4;2
-"Centro Mpal. De Acustica";106;4;2
-"J.M.D. Hortaleza";107;2;3
-"Escuelas Aguirre";8;1;2
-"Farolillo";18;1;2
-"Casa de Campo";24;3;4
-"Moratalaz";36;1;1
-"Cuatro Caminos";38;1;1
-"Ensanche de Vallecas";54;3;4
-"El Pardo";58;2;3
-"Juan Carlos I";59;1;2
+"Centro Mpal. De Acustica";106;1;3
+"J.M.D. Hortaleza";107;1;4
+"Escuelas Aguirre";8;2;2
+"Farolillo";18;2;2
+"Casa de Campo";24;3;3
+"Moratalaz";36;2;1
+"Cuatro Caminos";38;2;1
+"Ensanche de Vallecas";54;3;3
+"El Pardo";58;1;4
+"Juan Carlos I";59;2;2

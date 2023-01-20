@@ -10,7 +10,6 @@ VALNA<-read.csv("Meteo/Diario/datosInvalidosDiarios.csv",sep=";", dec=",")#csv q
 #la distribucion de fallos por cada tupla estacion, mes, magnitud. Este fichero se crea en el
 #script limpieza.r
 
-#¿APLICAR FACET WRAP, COMO SE HARÍA?
 
 #Fallos mensuales por estacion y magnitud, con esta gráfica se pretende saber como se reparten los
 #datos nulos regogidos por la tupla(estación, magnitud, mes)

@@ -465,7 +465,7 @@ names(dfMag)[2] <- '8'
 names(dfMag)[3] <- '9'
 names(dfMag)[4] <- '10'
 names(dfMag)[5] <- '14'
-#Puesto que hay 26 estacionesvamos a insertar 25 veces mas.
+#Puesto que hay 24 estacionesvamos a insertar 23 veces mas.
 a<-dfFin
 b<-dfMag
 estaciones<-unique(contamina21$estacion)

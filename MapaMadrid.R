@@ -140,14 +140,6 @@ for(myrow in 1:nrow(mimapa)){#rellenamos coordenadas
   mimapa[myrow,]$Nombre<-asocNombresNum[asocNombresNum$ESTACION==mimapa[myrow,]$Estacion,]$NombreEstacion
 }
 
-ED50 <- CRS(paste("+proj=utm +zone=30 +ellps=intl +units=m +no_defs"))
-barriosMadrid <- readShapePoly("Mapas/Barrios/200001909.shp",proj4string = ED50)
-
-coordinates(mimapa) <- c("x","y")
-proj4string(mimapa)<-ED50
-plot(barriosMadrid)
-plot(mimapa, pch=20, cex=1,col="red", add=TRUE)
-
 
 
 #representamos en un mapa las estaciones de las que disponemos datos
